@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'RixXladywatermelonR';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-4@1.0/RixXladywatermelonR.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Cafe24Lovingu';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2405-3@1.1/Cafe24Lovingu.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+.login-page-container{
+    height: 100vh;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    flex-direction: row ;
+    background-color: #2c704b;
+    justify-content: center;
+    background: linear-gradient(to bottom, #2c704b, #ffffff);
+}
+.l-p-background{
+    position: absolute;
+    z-index: -2;
+    width: 100%;
+    height: 100vh;
+   
+}
+.l-p-title{
+    align-self:flex-start ;
+    height: 27vh;
+    padding: 35px ;
+    font-size: 8vw;
+    text-shadow: -1px -1px 0 #ffffff,  
+    1px -1px 0 #ffffff,
+   -1px  1px 0 #ffffff,
+    1px  1px 0 #ffffff;
+}
+
+.login-page-input-container, .l-p-i-c{
+    height: 600px;
+    width: 500px;
+    background-color: rgb(185, 231, 206);
+    display: flex;
+    padding: 5px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(128, 128, 128);
+    border: 1px solid #000;
+}
+.l-p-i-c{
+    justify-content: center;
+}
+.l-p-i-c span{
+    font-family: 'RixXladywatermelonR';
+}
+
+.l-p-i-c img{
+    height: 300px; ;    
+    cursor: pointer;
+}
+@keyframes rotateRightLeft {
+  0% { transform: rotate(0deg); }
+  20% { transform: rotate(10deg); }
+  40% { transform: rotate(-10deg); }
+  60% { transform: rotate(10deg); }
+  80% { transform: rotate(-10deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.rotate-animation {
+  animation: rotateRightLeft 1s ease-in-out 3; /* 1초 동안 애니메이션, 3번 반복 */
+}
+
+
+
+
+
+
+
+.login-page-input-container h1{
+    margin-bottom: 100px;
+    margin-top: 60px;
+    margin-left: 30px;
+    color:rgb(10, 5, 0);
+    font-family: 'RixXladywatermelonR';
+    
+}
+.login-page-input-container input{
+    margin-bottom: 60px;
+    height: 30px;
+    width: 300px;
+    border-radius: 8px;
+    border: none;
+    padding-left: 10px;
+    transition:scale 0.5s ease ;
+}
+.login-page-input-container input:focus{
+    outline: none;
+    scale: 1.1;
+
+}
+
+.l-p-login{
+    width: 55%;
+    margin-bottom: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #2c704b;
+    color:rgb(1, 9, 17);
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+    transition-property: background-color scale color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+.l-p-login:hover{
+    background-color: rgb(183, 154, 114);
+    scale: 1.04;
+    color: white;
+}
+.l-p-find button{
+    width: 80px;
+    font-size: 10px;
+    background-color: transparent;
+    border: none;
+    cursor:pointer;
+}
+.l-p-find button:hover{
+    text-decoration: underline;
+
+}
+.l-p-find{
+    display:flex;
+    justify-content: space-between;
+    width: 55%;
+    
+}
