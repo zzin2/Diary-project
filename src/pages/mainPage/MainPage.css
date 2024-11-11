@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'meetOwnglyph_me-Rg';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_1@1.0/Ownglyph_meetme-Rg.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.main-p-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+
+    
+}
+.write{
+    cursor: pointer;
+    font-family: meetOwnglyph_me-Rg;
+    background-color: #7faba6 ;
+    font-size: 20px;
+    padding: 50px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+
+
+.feel:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.feel{
+    border: none;
+    background-color: rgb(255, 255, 255);
+}

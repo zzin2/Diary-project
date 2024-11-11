@@ -13,13 +13,11 @@
 
 .login-page-container{
     height: 100vh;
-    background-color: transparent;
     display: flex;
     align-items: center;
     flex-direction: row ;
-    background-color: #2c704b;
     justify-content: center;
-    background: linear-gradient(to bottom, #2c704b, #ffffff);
+    background-color:#e1eedd;
 }
 .l-p-background{
     position: absolute;
@@ -50,6 +48,7 @@
     border-radius: 10px;
     box-shadow: 10px 10px 10px rgb(128, 128, 128);
     border: 1px solid #000;
+    background: linear-gradient(to bottom, #99e0a5, #ffffff);
 }
 .l-p-i-c{
     justify-content: center;
